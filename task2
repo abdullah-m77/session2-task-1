@@ -1,0 +1,20 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    long long y;
+    cin >> y;
+    y += 5;
+    cout<<y<<"\n";
+    y -= 2;
+    cout<<y<<"\n";
+    y *= 3;
+    cout<<y<<"\n";
+    y /= 2;
+    cout<<y<<"\n";
+    
+
+    return 0;
+}
